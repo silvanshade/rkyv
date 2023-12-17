@@ -49,6 +49,7 @@ std = ["alloc", "bytecheck?/std", "ptr_meta/std", "rend?/std", "uuid?/std"]
 strict = ["rkyv_derive/strict"]
 uuid = ["dep:uuid", "bytecheck?/uuid"]
 validation = ["alloc", "bytecheck", "rend/validation"]
+tinyvec_alloc = ["tinyvec", "tinyvec?/alloc"]
 
 [package.metadata.docs.rs]
 features = ["validation"]
